@@ -1,6 +1,6 @@
 
 const app = require('./index')
-const Port =  process.env.PORT||2001
+const Port =  5000;
 const connect = require('./configs/db')
 
  app.listen(Port, async() =>{
